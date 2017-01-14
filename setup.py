@@ -25,11 +25,11 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.2.0',
 
-    description='A sample Python project',
+    description='A luzi82_sample Python project',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/luzi82/python_sampleproject',
 
     # Author details
     author='The Python Packaging Authority',
@@ -65,7 +65,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='sample setuptools development',
+    keywords='luzi82_sample setuptools development',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -94,7 +94,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'sample': ['package_data.dat'],
+        'luzi82_sample': ['package_data.dat'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
@@ -108,7 +108,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'sample=sample:main',
+            'luzi82_sample=luzi82_sample:main',
         ],
     },
 )
